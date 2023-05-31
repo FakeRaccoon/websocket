@@ -4,11 +4,14 @@
   "description": "websocket test",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "pm2 start index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "-": "^0.0.1",
+    "g": "^2.0.1",
+    "pm2": "^5.3.0",
     "ws": "^8.13.0"
   },
   "devDependencies": {
