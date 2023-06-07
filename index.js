@@ -15,7 +15,7 @@ wss.on('connection', function connection(ws) {
       "time_stamp": decode.time_stamp,
       "message": decode.message,
       "avatar": decode.avatar,
-      "is_like": decode.is_like,
+      "like": decode.like,
       "combined_string": decode.combined_string,
       "connection_count": wss.clients.size,
     }
